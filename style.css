@@ -1,0 +1,83 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    padding: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid darkblue;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 750px;
+    min-height: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(211, 211, 211);;
+    border-radius: 5px;
+    background-color: #fafeff;
+}
+
+.searchbar {
+    font-size: 18px;
+    border-radius: 4px;
+    width: 75%;
+    height: 35px;
+    margin-left: 10px;
+}
+
+input[type=checkbox] {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    border: 0px;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.todo-item {
+    width: 75%;
+    height: 25px;
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background-color: white;
+    color: darkblue;
+}
+  
+#add-item {
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 14%;
+    height: 35px;
+    margin-left: 10px;
+    cursor: pointer;  
+}
+
+.done {
+    text-decoration: line-through;
+    color: darkgrey;
+} 
+
+
